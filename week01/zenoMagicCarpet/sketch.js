@@ -14,6 +14,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   // createCanvas(600,600);
   
+  // canvas resize
 }
 
 
@@ -24,6 +25,8 @@ function draw(){
 
   smoothX = .99*smoothX + .01*mouseX;
   smoothY = .99*smoothY + .01*mouseY;
+  // blending current and destination values
+  // helps with sensor data (to reduce noise)
 
   // change scale as rectangle moves from foreground to background
   // x, y is location
@@ -31,17 +34,28 @@ function draw(){
 
   image(rug, smoothX, smoothY, scaleWidth, scaleHeight);
 
-  if (mouseX >= 1000 && mouseY >= 1000){
-    scaleWidth = .2*scaleWidth;
-    scaleHeight = .2*scaleHeight;
+
+  if (mouseX >= 1000){
+    scaleWidth = .999*scaleWidth;
+    scaleHeight = .999*scaleHeight;
+
+      console.log(scaleWidth);
+
   } else { 
     scaleWidth = 1.001*scaleWidth;
     scaleHeight = 1.001*scaleHeight;
   };
+
+  // distance of object mapped to center of the window
+  // map function with min max
 
   // image(img,x,y,[width],[height])
   // image(rug, smoothX, smoothY);
 
   // rect(smoothX,smoothY,70,40);
   
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
