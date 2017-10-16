@@ -26,3 +26,23 @@ Week 03:
 Week 04:
 
 --> Vertex Shaders + Audio Input, "audioOOOofx"
+
+Week 05:
+
+--> ofApp, "Rug Life"
+
+---------- Unity3D ------------
+
+--> Unity3D, swarming
+
+--> Unity3D, 
+
+GIFs:
+
+On A Magic Carpet Ride:
+http://www.giphy.com/gifs/3ov9jUAwpNmi1oALmM
+
+
+
+
+

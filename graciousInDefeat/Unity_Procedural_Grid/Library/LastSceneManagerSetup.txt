@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/UTJ/HairWorksIntegration/Example/Simple.unity
+  isLoaded: 1
+  isActive: 1

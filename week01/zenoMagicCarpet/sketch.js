@@ -34,8 +34,7 @@ function draw(){
 
   image(rug, smoothX, smoothY, scaleWidth, scaleHeight);
 
-
-  if (mouseX >= 1000){
+  if (mouseX >= 100){
     scaleWidth = .999*scaleWidth;
     scaleHeight = .999*scaleHeight;
 
@@ -48,12 +47,20 @@ function draw(){
 
   // distance of object mapped to center of the window
   // map function with min max
+  // map(value,start1,stop1,start2,stop2,[withinBounds])
+
+  // scaleWidth = map(smoothX, 100, 200, 400, 500, true);
+  // scaleHeight = map(smoothY, 100, 200, 400, 500, true);
+  // image(rug, smoothX, smoothY, scaleWidth, scaleHeight); 
 
   // image(img,x,y,[width],[height])
+
+  
+  // rect(smoothX,smoothY,70,40);
+  // image(rug, x, y, scaleWidth, scaleHeight);
   // image(rug, smoothX, smoothY);
 
-  // rect(smoothX,smoothY,70,40);
-  
+
 }
 
 function windowResized() {
