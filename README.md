@@ -41,6 +41,8 @@ GIFs:
 
 On A Magic Carpet Ride:
 http://www.giphy.com/gifs/3ov9jUAwpNmi1oALmM
+![gif](https://media.giphy.com/media/3ov9jUAwpNmi1oALmM/giphy.gif)
+
 
 
 
