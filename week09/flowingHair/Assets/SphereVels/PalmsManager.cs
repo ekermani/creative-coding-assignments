@@ -44,7 +44,7 @@ public class PalmsManager : MonoBehaviour {
 				float dist = repel.magnitude;
 				if (dist < .5f) {
 					repel.Normalize ();
-					palm.GetComponent<Palm> ().addVelocity (repel*dist*.1f);
+//					Palm.GetComponent<Palm> ().addVelocity (repel*dist*.1f);
 				}
 
 			}
