@@ -27,7 +27,7 @@ void ofApp::draw(){
     clouds.draw(0, 0, ofGetWidth(), ofGetHeight());
     
     //smoothValue.x = .99*smoothValue.x + .01*mouseX;
-//smoothValue.y =
+    //smoothValue.y =
     smoothValue = .99*smoothValue + .01*ofVec2f(mouseX,mouseY);
     
     

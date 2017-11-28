@@ -16,6 +16,8 @@ class ofApp : public ofBaseApp{
 		void setup();
 		void update();
 		void draw();
+    
+        void exit();
 
 		void keyPressed(int key);
 		void keyReleased(int key);
@@ -29,26 +31,52 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
     
-//        void exit();
-    
 //        void drawPointCloud();
+    
+    //-----LINES---------//
     
     ofPolyline line;
     vector < ofPoint > drawnPoints;
     vector < Line> lines;
-    
-    ofEasyCam cam;
-    
-    ofVideoGrabber camera;
-    ofImage thresholded;
-    
-    ofPixels previous;
-    ofImage diff;
-    
-    //    ofxCv::RunningBackground background;
-    
-    cv::Scalar diffMean;
-    
+
+//    ofEasyCam cam;
+//    
+//    ofVideoGrabber camera;
+//    ofImage thresholded;
+//
+//    ofPixels previous;
+//    ofImage diff;
+//
+//    //    ofxCv::RunningBackground background;
+//
+//    cv::Scalar diffMean;
+//
     bool isDrawing;
+    
+    ofVec2f smoothValue;
+
+    
+    //-------KINECT------//
+    
+    ofxKinect kinect;
+    ofxCvColorImage colorImg;
+    
+    ofxCvGrayscaleImage grayImage; // grayscale depth image
+    ofxCvGrayscaleImage grayThreshNear; // the near thresholded image
+    ofxCvGrayscaleImage grayThreshFar; // the far thresholded image
+    
+    ofxCvContourFinder contourFinder;
+    
+    bool bThreshWithOpenCV;
+    bool bDrawPointCloud;
+    
+    int nearThreshold;
+    int farThreshold;
+    
+    int angle;
+    
+    // used for viewing the point cloud
+    ofEasyCam easyCam;
+
 		
 };

@@ -8,16 +8,23 @@ void ofApp::setup(){
 //    ofBackground(0,0,0);
     ofBackground(255,255,255);
 
-    ofSetVerticalSync(true);
+//    ofSetVerticalSync(true);
 //    camera.setup(1024,576);
 //    camera.setup(320,240);
 
     // imitate() will set up previous and diff
     // so they have the same size and type as cam
-    imitate(previous, camera);
-    imitate(diff, camera);
-    
+//    imitate(previous, camera);
+//    imitate(diff, camera);
+//
     isDrawing = false;
+    
+//    ofEnableDepthTest();
+//    baseNode.setPosition(0, 0, 0);
+//    childNode.setParent(baseNode);
+//    childNode.setPosition(0, 0, 200);
+//    grandChildNode.setParent(childNode);
+//    grandChildNode.setPosition(0,50,0);
 }
 
 //--------------------------------------------------------------
@@ -43,6 +50,16 @@ void ofApp::update(){
 //
 //        diffMean *= Scalar(50);
 //    }
+    
+//    baseNode.pan(1);
+//    childNode.tilt(3);
+//
+//    line.addVertex(grandChildNode.getGlobalPosition());
+//    if (line.size() > 20){
+//        line.getVertices().erase(
+//                                 line.getVertices().begin()
+//                                 );
+//    }
 }
 
 //--------------------------------------------------------------
@@ -57,14 +74,14 @@ void ofApp::draw(){
     for (auto line : lines) {
         ofDrawLine(line.a, line.b);
     }
-
-    ofPushMatrix();
+//
+//    ofPushMatrix();
 
 
 //    ofEnableDepthTest();
-    camera.draw(0,0);
-
-    diff.draw(320,0);
+//    camera.draw(0,0);
+//
+//    diff.draw(320,0);
 
 //    if(thresholded.isAllocated()) {
 //        thresholded.draw(640,0);
@@ -73,12 +90,12 @@ void ofApp::draw(){
 
 //    ofDisableDepthTest();
 
-    ofPopMatrix();
-
-    // use the [] operator to get elements from a Scalar
-    float diffRed = diffMean[0];
-    float diffGreen = diffMean[1];
-    float diffBlue = diffMean[2];
+//    ofPopMatrix();
+//
+//    // use the [] operator to get elements from a Scalar
+//    float diffRed = diffMean[0];
+//    float diffGreen = diffMean[1];
+//    float diffBlue = diffMean[2];
 
 //    ofSetColor(255, 0, 0);
 //    ofDrawRectangle(0, 0, diffRed, 10);
@@ -91,7 +108,7 @@ void ofApp::draw(){
             ofPoint pt;
             pt.set(mouseX,mouseY);
             line.addVertex(pt);
-        
+
         // takes current position of mouse ofPoint mouse and confront with previous position
         // if distance between current and previous positions less than 30 pixel
         // then create Line lineTemp that connects position of mouse with point in history vector drawnPoints
@@ -99,22 +116,22 @@ void ofApp::draw(){
             ofPoint mouse;
             mouse.set(mouseX,mouseY);
             float dist = (mouse - point).length();
-            
+
             if (dist < 30) {
                 Line lineTemp;
                 lineTemp.a = mouse;
                 lineTemp.b = point;
                 lines.push_back(lineTemp);
             }
-            
-            // points first start at larger distance then smaller
-            if (dist < 5) {
-                Line lineTemp;
-                lineTemp.b = mouse;
-                lineTemp.a = point;
-                lines.push_back(lineTemp);
-            }
-            
+//
+//            // points first start at larger distance then smaller
+//            if (dist < 5) {
+//                Line lineTemp;
+//                lineTemp.b = mouse;
+//                lineTemp.a = point;
+//                lines.push_back(lineTemp);
+//            }
+
 
         }
         // each time drag mouse, saving position of mouse in drawnPoints
@@ -122,7 +139,15 @@ void ofApp::draw(){
         drawnPoints.push_back(ofPoint(mouseX,mouseY));
     }
 
+//    cam.begin();
+//    //uncomment these 3 lines to understand how nodes are moving
+//    baseNode.draw();
+//    childNode.draw();
+//    grandChildNode.draw();
+//    line.draw();
+//    cam.end();
 }
+
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){

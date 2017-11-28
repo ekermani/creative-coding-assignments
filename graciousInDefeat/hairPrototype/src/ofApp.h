@@ -29,7 +29,10 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
     
-        ofPolyline line;
+    ofNode baseNode;
+    ofNode childNode;
+    ofNode grandChildNode;
+    ofPolyline line;
     vector < ofPoint > drawnPoints;
     vector < Line> lines;
 
