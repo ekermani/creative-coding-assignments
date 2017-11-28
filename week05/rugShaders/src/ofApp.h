@@ -4,6 +4,8 @@
 
 
 #include "ofMain.h"
+#include "ofxGui.h"
+
 
 class ofApp : public ofBaseApp{
 
@@ -28,12 +30,19 @@ class ofApp : public ofBaseApp{
     
     ofImage image;
     ofImage img;
+    ofImage clip;
     ofImage imageMask;
-    ofVideoPlayer movie;
+    ofVideoPlayer video;
 //    ofVideoGrabber camera;
     
     ofPlanePrimitive plane;
+    ofSpherePrimitive sphere;
+    
+    ofMesh mesh;
+    ofEasyCam cam;
     
     ofFbo fbo;
     ofFbo maskFbo;
+    
+    
 };
