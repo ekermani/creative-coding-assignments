@@ -17,11 +17,13 @@ Zeno, "On a Magic Carpet Ride"
 ![gif](https://media.giphy.com/media/3ov9jUAwpNmi1oALmM/giphy.gif)
 
 --> 3D/Primitives, "Paisley"
+
 ![gif](https://media.giphy.com/media/3o6fJ3DtpeEagYtz0s/giphy.gif)
 
 ## Week 03:
 
 Classes, "paisleyPark"
+
 ![gif](https://media.giphy.com/media/3o6fIUE8qKUvneCCk0/giphy.gif)
 
 Fragment Shaders, "throwingShade"
