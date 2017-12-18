@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 228368fd024fa6c479802497dde60dc0
+timeCreated: 1507018676
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - particlePrefab: {fileID: 100000, guid: bf495eacf58e31146ab012aa89ac68da, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
