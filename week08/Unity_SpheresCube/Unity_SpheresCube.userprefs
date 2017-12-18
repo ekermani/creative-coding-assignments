@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SphereVels/Capsule1.cs">
+    <Files>
+      <File FileName="Assets/SphereVels/SpheresManager.cs" Line="19" Column="100" />
+      <File FileName="Assets/SphereVels/Capsule.cs" Line="14" Column="3" />
+      <File FileName="Assets/SphereVels/Capsule1.cs" Line="5" Column="39" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

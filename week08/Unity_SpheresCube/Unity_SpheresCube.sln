@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_SpheresCube", "Assembly-CSharp-firstpass.csproj", "{285F813B-E991-1F26-656E-2DD3E57C3368}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_SpheresCube", "Assembly-CSharp.csproj", "{B951DC85-C295-0491-6831-F2BEE9D2E115}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_SpheresCube", "Assembly-CSharp-Editor-firstpass.csproj", "{2713727A-4064-BB65-CFFA-4BACE8F197F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{285F813B-E991-1F26-656E-2DD3E57C3368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285F813B-E991-1F26-656E-2DD3E57C3368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285F813B-E991-1F26-656E-2DD3E57C3368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285F813B-E991-1F26-656E-2DD3E57C3368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B951DC85-C295-0491-6831-F2BEE9D2E115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B951DC85-C295-0491-6831-F2BEE9D2E115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B951DC85-C295-0491-6831-F2BEE9D2E115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B951DC85-C295-0491-6831-F2BEE9D2E115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2713727A-4064-BB65-CFFA-4BACE8F197F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2713727A-4064-BB65-CFFA-4BACE8F197F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2713727A-4064-BB65-CFFA-4BACE8F197F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2713727A-4064-BB65-CFFA-4BACE8F197F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
