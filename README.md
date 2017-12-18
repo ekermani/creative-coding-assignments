@@ -25,6 +25,7 @@ Classes, "paisleyPark"
 ![gif](https://media.giphy.com/media/3o6fIUE8qKUvneCCk0/giphy.gif)
 
 Fragment Shaders, "throwingShade"
+
 ![gif](https://media.giphy.com/media/3oxHQfuyJhHMlmOOPK/giphy.gif)
 
 ## Week 04:
