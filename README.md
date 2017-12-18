@@ -28,11 +28,12 @@ Classes, "paisleyPark"
 
 Fragment Shaders, "throwingShade"
 
-![gif](https://media.giphy.com/media/3oxHQfuyJhHMlmOOPK/giphy.gif)
+![gif](https://media.giphy.com/media/3o6fJf1B55tfdc3v9e/giphy.gif)
 
 ## Week 04:
 
 Vertex Shaders + Audio Input + openCV, "audioOOOofx"
+
 ![gif](https://media.giphy.com/media/l3mZoPrQqUS3Kus24/giphy.gif)
 
 ## Week 05:
