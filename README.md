@@ -52,18 +52,15 @@ Week 06:
 ![gif](https://media.giphy.com/media/3oxHQgHE6ckt1GB49G/giphy.gif)
 
 Week 08:
-
 --> Sphere Cube
 ![gif](https://media.giphy.com/media/xUOxfmsBTU4GNB13lS/giphy.gif)
 
 Week 09: 
-
 --> AR Vuforia, "flowing hair"
 
 ------- Machine Learning (oF) -------
 
 Week 10:
-
 --> T-SNE, "ShahnamashUp"
 ![t-sne grid](https://github.com/ekermani/creative-coding-assignments/blob/master/week10/tsne_wellnoone.png)
 
