@@ -1,0 +1,4 @@
+ofx3DFont
+ofxGui
+ofxImageSequence
+ofxTrueTypeFontUL2
