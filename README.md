@@ -4,9 +4,7 @@ Assignment Submissions for Parsons Paris course Creative Coding with Chris Sugru
 -------- p5.js--------
 
 Week 01:
-
 --> Easing Graphs
-
 --> Zeno, "On a Magic Carpet Ride" 
 
 ------- openFrameworks --------
