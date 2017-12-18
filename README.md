@@ -17,7 +17,7 @@ Zeno, "On a Magic Carpet Ride"
 ![gif](https://media.giphy.com/media/3ov9jUAwpNmi1oALmM/giphy.gif)
 
 --> 3D/Primitives, "Paisley"
-![gif](https://media.giphy.com/media/3o6fJd2NKA9ItaWEMg/giphy.gif)
+![gif](https://media.giphy.com/media/3o6fJ3DtpeEagYtz0s/giphy.gif)
 
 ## Week 03:
 
@@ -36,9 +36,11 @@ Vertex Shaders + Audio Input + openCV, "audioOOOofx"
 ## Week 05:
 
 ofApp Complete, "Rug Life"
+
 ![gif](https://media.giphy.com/media/xUOxfgr37azBNDWeDm/giphy.gif)
 
 Research Project Prototypes & Presentation
+
 ![gif](https://media.giphy.com/media/xT0xeOeaExPP8r0PSM/giphy.gif)
 ![gif](https://media.giphy.com/media/3o6fJgwJpgInNQgN7G/giphy.gif)
 
