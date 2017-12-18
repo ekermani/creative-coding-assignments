@@ -6,7 +6,11 @@ endif
 
 # make sure the the OF_ROOT location is defined
 ifndef OF_ROOT
+<<<<<<< HEAD
     OF_ROOT=$(realpath ../../../../of_v0.9.8_osx_release/../of_v0.9.8_osx_release/../of_v0.9.8_osx_release)
+=======
+    OF_ROOT=$(realpath ../../../../of_v0.9.8_osx_release/../of_v0.9.8_osx_release)
+>>>>>>> 6ec0b32... tsne grid complete
 endif
 
 # call the project makefile!

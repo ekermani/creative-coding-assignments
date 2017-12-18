@@ -6,9 +6,15 @@
 ################################################################################
 # OF ROOT
 #   The location of your root openFrameworks installation
+<<<<<<< HEAD
 #       (default) OF_ROOT = ../../../../of_v0.9.8_osx_release/../of_v0.9.8_osx_release/../of_v0.9.8_osx_release 
 ################################################################################
 # OF_ROOT = ../../../../of_v0.9.8_osx_release/../of_v0.9.8_osx_release/../of_v0.9.8_osx_release
+=======
+#       (default) OF_ROOT = ../../../../of_v0.9.8_osx_release/../of_v0.9.8_osx_release 
+################################################################################
+# OF_ROOT = ../../../../of_v0.9.8_osx_release/../of_v0.9.8_osx_release
+>>>>>>> 6ec0b32... tsne grid complete
 
 ################################################################################
 # PROJECT ROOT

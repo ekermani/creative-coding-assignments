@@ -1,8 +1,9 @@
 #include "ofApp.h"
 
+
 const string allowed_ext[] = {"jpg", "png", "gif", "jpeg"};
 
-void ofApp::scan_dir_imgs(ofDirectory dir) {
+void ofApp::scan_dir_imgs(ofDirectory dir){
     ofDirectory new_dir;
     int size = dir.listDir();
     for (int i = 0; i < size; i++){
@@ -28,10 +29,17 @@ void ofApp::setup(){
     // w, h = downsample (or scale up) for source images prior to encoding!
     // displayW, displayH = resolution of the individual thumbnails for your output image - be careful about going over your maximum texture size on graphics card - 5000x5000 may work, but 10000x10000 may not
     // perplexity, theta (for t-SNE, see 'example' for explanation of these)
+<<<<<<< HEAD
     string imageDir = "images-thumbs/";
     string imageSavePath = "tsne_grid_animals.png";
     nx = 21;
     ny = 20;
+=======
+    string imageDir = ofToDataPath("thumbs/");
+    string imageSavePath = "tsne_wellnoone.png";
+    nx = 10;
+    ny = 10;
+>>>>>>> 6ec0b32... tsne grid complete
     w = 256; //do not go lower than 256 - it will work, but results won't be as good
     h = 256;
     displayW = 100;
@@ -110,15 +118,18 @@ void ofApp::setup(){
     // setup gui
     gui.setup();
     gui.add(scale.set("scale", 1.0, 0.0, 1.0));
+    
+
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-    
+
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
+    
     ofBackground(0);
     
     ofPushMatrix();
@@ -131,60 +142,60 @@ void ofApp::draw(){
     ofPopMatrix();
     
     gui.draw();
+
 }
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
-    
+
 }
 
 //--------------------------------------------------------------
 void ofApp::keyReleased(int key){
-    
+
 }
 
 //--------------------------------------------------------------
 void ofApp::mouseMoved(int x, int y ){
-    
+
 }
 
 //--------------------------------------------------------------
 void ofApp::mouseDragged(int x, int y, int button){
-    
+
 }
 
 //--------------------------------------------------------------
 void ofApp::mousePressed(int x, int y, int button){
-    
+
 }
 
 //--------------------------------------------------------------
 void ofApp::mouseReleased(int x, int y, int button){
-    
+
 }
 
 //--------------------------------------------------------------
 void ofApp::mouseEntered(int x, int y){
-    
+
 }
 
 //--------------------------------------------------------------
 void ofApp::mouseExited(int x, int y){
-    
+
 }
 
 //--------------------------------------------------------------
 void ofApp::windowResized(int w, int h){
-    
+
 }
 
 //--------------------------------------------------------------
 void ofApp::gotMessage(ofMessage msg){
-    
+
 }
 
 //--------------------------------------------------------------
-void ofApp::dragEvent(ofDragInfo dragInfo){
-    
-}
+void ofApp::dragEvent(ofDragInfo dragInfo){ 
 
+}
